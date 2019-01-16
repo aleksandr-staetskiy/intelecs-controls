@@ -1,0 +1,42 @@
+.numbers {
+    background: rgb(60, 101, 180);
+    background: linear-gradient(278deg, rgba(60, 101, 180, 1) 0%, rgba(207, 129, 255, 1) 78%);
+    color: #FFF;
+    margin-top: 100px;
+
+    &__title {
+        font-family: $font-title;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    &__inner {
+        text-align: center;
+    }
+
+    &__big {
+        font-weight: bold;
+        font-size: 40px;
+        font-family: $font-title;
+        margin-bottom: 0;  
+     }
+
+     &__descr {
+        text-transform: capitalize;
+        font-size: 20px;
+     }
+
+     @media (max-width: $screen-lg) {
+         &__title {
+             font-size: 25px;
+         }
+
+         &__big {
+             font-size: 34px;
+         }
+
+         &__descr {
+             font-size: 17px;
+         }
+     }
+}

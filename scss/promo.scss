@@ -1,0 +1,40 @@
+.promo {
+	background: rgb(60, 101, 180);
+    background: linear-gradient(278deg, rgba(60, 101, 180, 1) 0%, rgba(207, 129, 255, 1) 78%);
+    color: #FFF;
+
+    &__title {
+    	font-family: $font-title;
+		font-size: 40px; 
+		font-weight: bold;
+		margin-top: 80px;
+	}
+
+    &__descr {
+			font-family: $font-text;
+		}
+
+    &__img {
+    	width: 290px;
+    	height: 290px;
+		margin-left: 45px;	
+		margin-top: 70px;
+		}
+
+		@media (max-width: $screen-lg) {
+
+			&__title {
+				font-size: 35px;
+			}
+
+			&__descr {
+				font-size: 14px;
+			}
+			&__img {
+				margin-top: 100px;
+				margin-left: 35px;
+				width: 210px;
+				height: 210px;
+			}
+		}
+    }

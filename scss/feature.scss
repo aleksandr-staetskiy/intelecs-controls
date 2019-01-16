@@ -1,0 +1,50 @@
+.features {
+    &__title {
+        font-family: $font-title;
+        text-align: center;
+        color: $main-color;
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+
+    &-card {
+        height: 275px;
+        text-align: center;
+        background: #efefef;
+        border-radius: 20px;
+        padding: 0px 20px;
+        box-shadow: -10px 15px 30px rgba(150, 148, 148, 0.637);
+    }
+
+    &-card__img {
+        width: 100px;
+        height: 100px;
+    }
+
+    &-card__title {
+        color: #6e6c6c;
+    }
+
+    &-card__text {
+        font-family: $font-text;
+        color: $main-color;
+    }
+
+    @media (max-width: $screen-lg) {
+
+        &__title {
+            font-size: 27px;
+        }
+
+        &-card {
+            padding: 0px 10px;
+        }
+        &-card__title {
+            font-size: 20px;
+        }
+
+        &-card__text {
+            font-size: 14px;
+        }
+    }
+}

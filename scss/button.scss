@@ -1,0 +1,72 @@
+.main-btn {
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    width: 170px;
+    height: 45px;
+    margin-top: 15px;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    background: #e662f7;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border: 1px solid rgba(232, 28, 216, 0.06);
+    margin-bottom: 130px;
+
+    &:hover {
+        background: rgba(238, 65, 252, 0.97);
+        box-shadow: 0 15px 20px rgba(24, 28, 26, 0.31);
+        color: white;
+        transform: translateY(-3px); 
+    }
+
+    @media (max-width: $screen-lg) {
+        margin-top: 0;
+        height: 35px;
+        text-transform: none;
+        line-height: 30px;
+        font-size: 14px;
+    }
+}
+
+.btn--owal {
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    text-transform: none;
+    height: 35px;
+    line-height: 35px;
+
+}
+
+.btn--contact {
+    width: 150px;
+    border-radius: 20px;
+    background: #776dff;
+    text-transform: none;
+    height: 35px;
+    line-height: 35px;
+
+}
+
+.main-btn--blue {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 15%;
+    border: none;
+    border-radius: 14px;
+    height: 35px;
+    width: 150px;
+    background: rgb(85, 67, 190);
+    text-transform: none;
+    line-height: 35px;
+
+    &:hover {
+        background: #362ea5;
+        text-decoration: none;
+    }
+}
