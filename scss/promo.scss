@@ -37,4 +37,20 @@
 				height: 210px;
 			}
 		}
+
+		@media (max-width: $screen-md) {
+			
+			&__title {
+				font-size: 30px;
+			}
+
+			&__descr {
+				font-size: 12px;
+			}
+
+			&__img {
+				height: 160px;
+				width: 160px;
+			}
+		}
     }

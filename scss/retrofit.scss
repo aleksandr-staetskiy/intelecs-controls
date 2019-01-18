@@ -33,4 +33,18 @@
             font-size: 14px;
         }
     }
+
+    @media (max-width: $screen-md) {
+
+        &__title {
+            font-size: 23px;
+        }
+
+        &__img {
+            width: 350px;
+            height: 300px;
+            margin-left: 85px;
+        }
+        
+    }
 }

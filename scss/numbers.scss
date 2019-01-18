@@ -39,4 +39,19 @@
              font-size: 17px;
          }
      }
+
+     @media (max-width: $screen-md) {
+         
+        &__title {
+            font-size: 22px;
+        }
+
+        &__big {
+            font-size: 30px;
+        }
+
+        &__descr {
+            font-size: 14px;
+        }
+     }
 }

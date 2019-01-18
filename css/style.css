@@ -32,6 +32,18 @@
     height: 210px;
   }
 }
+@media (max-width: 768px) {
+  .promo__title {
+    font-size: 30px;
+  }
+  .promo__descr {
+    font-size: 12px;
+  }
+  .promo__img {
+    height: 160px;
+    width: 160px;
+  }
+}
 
 /*  BURGER
 ========================================== */
@@ -473,6 +485,18 @@ nav ul.sub li a:hover {
     font-size: 14px;
   }
 }
+@media (max-width: 768px) {
+  .features-card__img {
+    height: 90px;
+    width: 90px;
+  }
+  .features-card__title {
+    font-size: 16px;
+  }
+  .features-card__text {
+    font-size: 12px;
+  }
+}
 
 .numbers {
   background: #3c65b4;
@@ -509,6 +533,17 @@ nav ul.sub li a:hover {
     font-size: 17px;
   }
 }
+@media (max-width: 768px) {
+  .numbers__title {
+    font-size: 22px;
+  }
+  .numbers__big {
+    font-size: 30px;
+  }
+  .numbers__descr {
+    font-size: 14px;
+  }
+}
 
 .retrofit__title {
   font-family: "Roboto", sans-serif;
@@ -537,6 +572,16 @@ nav ul.sub li a:hover {
   }
   .retrofit__descr {
     font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .retrofit__title {
+    font-size: 23px;
+  }
+  .retrofit__img {
+    width: 350px;
+    height: 300px;
+    margin-left: 85px;
   }
 }
 
