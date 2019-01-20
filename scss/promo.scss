@@ -4,14 +4,14 @@
     color: #FFF;
 
     &__title {
-    	font-family: $font-title;
+    	font-family: $font-text;
 		font-size: 40px; 
 		font-weight: bold;
 		margin-top: 80px;
 	}
 
     &__descr {
-			font-family: $font-text;
+			font-family: $font-title;
 		}
 
     &__img {
@@ -52,5 +52,17 @@
 				height: 160px;
 				width: 160px;
 			}
+		}
+
+		@media (max-width: $screen-sm) {
+
+			&__descr {
+				font-size: 15px;
+			}
+
+			&__img {
+				display: none;
+			}
+			
 		}
     }

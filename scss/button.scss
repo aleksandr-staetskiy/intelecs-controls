@@ -70,3 +70,20 @@
         text-decoration: none;
     }
 }
+
+@media (max-width: $screen-sm) {
+
+    .btn--owal {
+        width: 120px;
+    }
+
+    .btn--contact {
+        width: 120px;
+    }
+
+    .button-wrapper {
+        text-align: center;
+    }
+
+
+}

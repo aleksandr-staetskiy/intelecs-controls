@@ -47,4 +47,22 @@
         }
         
     }
+
+    @media (max-width: $screen-sm) {
+
+        & {
+            overflow: hidden;
+        }
+        
+        &__img {
+            display: none;
+        }
+
+        &__descr {
+            padding: 0px 15px;
+            font-size: 14px;
+            margin-top: 0;
+            // text-align: center;
+        }
+    }
 }

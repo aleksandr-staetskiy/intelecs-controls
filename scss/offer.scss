@@ -41,4 +41,12 @@
             margin-bottom: 30px;
         }
     }
+
+    @media (max-width: $screen-sm) {
+
+        &-cards {
+            padding: 0px 25px;
+        }
+        
+    }
 }

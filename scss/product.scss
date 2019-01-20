@@ -1,6 +1,10 @@
 .product {
     margin-top: 80px;
 
+    .owl-carousel {
+        display: none;
+    }
+
     &__title {
         font-family: $font-title;
         color: $main-color;
@@ -46,5 +50,30 @@
             font-size: 14px;
         }
 
+    }
+
+    @media (max-width: $screen-sm) {
+
+        & {
+            margin-top: 35px;
+        }
+
+        & {
+            overflow: hidden;
+        }
+
+        .mobile--off {
+            display: none;
+        }
+
+        &-card {
+            height: auto;
+            padding: 0px 25px;
+        }
+
+        .owl-carousel {
+            display: block;
+        }
+        
     }
 }

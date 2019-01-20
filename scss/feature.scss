@@ -1,4 +1,5 @@
 .features {
+
     &__title {
         font-family: $font-title;
         text-align: center;
@@ -28,6 +29,10 @@
     &-card__text {
         font-family: $font-text;
         color: $main-color;
+    }
+
+    .owl-carousel {
+        display: none;
     }
 
     @media (max-width: $screen-lg) {
@@ -62,5 +67,29 @@
         &-card__text {
             font-size: 12px;
         }
+    }
+
+    @media (max-width: $screen-sm) {
+
+        & {
+            overflow: hidden;
+        }
+
+        .mobile--off {
+            display: none;
+        }
+
+        &-card__text {
+            font-size: 15px;
+        }
+
+        &-card__title {
+            font-size: 23px;
+        }
+
+        .owl-carousel {
+            display: block;
+        }
+        
     }
 }

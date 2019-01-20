@@ -54,4 +54,12 @@
             font-size: 14px;
         }
      }
+
+     @media (max-width: $screen-sm) {
+
+        & {
+            margin-top: 30px;
+        }
+         
+     }
 }
