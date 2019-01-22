@@ -1,13 +1,22 @@
 .promo {
-  background: #3c65b4;
-  background: linear-gradient(278deg, #3c65b4 0%, #cf81ff 78%);
+  background-image: url(../img/wide_Dosatore_Gravimetrico_Quantum_Q12_-_1280x410.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #484885;
+  background-blend-mode: luminosity;
   color: #FFF;
+}
+.promo__wrapper {
+  background: #161515;
+  opacity: 0.9;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  padding: 20px;
 }
 .promo__title {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 40px;
   font-weight: bold;
-  margin-top: 80px;
 }
 .promo__descr {
   font-family: "Roboto", sans-serif;
@@ -397,7 +406,7 @@ nav ul.sub li a:hover {
   -webkit-transition: .3s;
   transition: .3s;
   border: 1px solid rgba(232, 28, 216, 0.06);
-  margin-bottom: 130px;
+  margin-bottom: 30px;
 }
 .main-btn:hover {
   background: rgba(238, 65, 252, 0.97);

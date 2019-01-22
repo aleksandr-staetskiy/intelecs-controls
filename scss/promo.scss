@@ -1,13 +1,23 @@
 .promo {
-	background: rgb(60, 101, 180);
-    background: linear-gradient(278deg, rgba(60, 101, 180, 1) 0%, rgba(207, 129, 255, 1) 78%);
-    color: #FFF;
+	background-image: url(../img/wide_Dosatore_Gravimetrico_Quantum_Q12_-_1280x410.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:  #484885;
+  	background-blend-mode: luminosity;
+	color: #FFF;
+	
+	&__wrapper {
+		background: rgb(22, 21, 21);
+		opacity: 0.9;
+		margin-top: 80px;
+		margin-bottom: 100px;
+		padding: 20px;
+	}
 
     &__title {
     	font-family: $font-text;
 		font-size: 40px; 
 		font-weight: bold;
-		margin-top: 80px;
 	}
 
     &__descr {
