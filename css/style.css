@@ -1,17 +1,10 @@
 .promo {
-  background-image: url(../img/wide_Dosatore_Gravimetrico_Quantum_Q12_-_1280x410.jpg);
+  background-image: url(../img/Plastic-Industry.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #484885;
-  background-blend-mode: luminosity;
+  background-blend-mode: soft-light;
   color: #FFF;
-}
-.promo__wrapper {
-  background: #161515;
-  opacity: 0.9;
-  margin-top: 80px;
-  margin-bottom: 100px;
-  padding: 20px;
 }
 .promo__title {
   font-family: "Roboto Condensed", sans-serif;
@@ -796,4 +789,45 @@ nav ul.sub li a:hover {
 .modal__title {
   text-align: center;
   padding-bottom: 15px;
+}
+
+.mono-promo {
+  background: #3c65b4;
+  background: linear-gradient(278deg, #3c65b4 0%, #cf81ff 78%);
+  color: #FFF;
+  padding-top: 100px;
+}
+.mono-promo__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+.mono-promo__descr {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 60px;
+}
+
+.container-line {
+  border-left: 1px solid #8393b8;
+}
+
+.mono-features__img {
+  margin-top: 35px;
+  margin-left: 30px;
+  width: 450px;
+  height: 300px;
+}
+.mono-features__title {
+  margin-top: 65px;
+  font-family: "Roboto", sans-serif;
+  color: #3d3d3d;
+}
+.mono-features__descr {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #7a7575;
+}
+.mono-features__img-second {
+  height: 400px;
+  width: 350px;
+  margin-top: 55px;
+  margin-left: 40px;
 }

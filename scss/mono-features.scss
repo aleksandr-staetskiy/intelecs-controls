@@ -1,0 +1,26 @@
+.mono-features {
+    &__img {
+        margin-top: 35px;
+        margin-left: 30px;
+        width: 450px;
+        height: 300px;
+    }
+
+    &__title {
+        margin-top: 65px;
+        font-family: $font-title;
+        color: #3d3d3d;
+    }
+
+    &__descr {
+        font-family: $font-text;
+        color: $main-color;
+    }
+
+    &__img-second {
+        height: 400px;
+        width: 350px;
+        margin-top: 55px;
+        margin-left: 40px;
+    }
+}

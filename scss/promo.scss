@@ -1,18 +1,12 @@
 .promo {
-	background-image: url(../img/wide_Dosatore_Gravimetrico_Quantum_Q12_-_1280x410.jpg);
+	background-image: url(../img/Plastic-Industry.jpeg);
+	// height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color:  #484885;
-  	background-blend-mode: luminosity;
+  	background-blend-mode: soft-light;
 	color: #FFF;
 	
-	&__wrapper {
-		background: rgb(22, 21, 21);
-		opacity: 0.9;
-		margin-top: 80px;
-		margin-bottom: 100px;
-		padding: 20px;
-	}
 
     &__title {
     	font-family: $font-text;
