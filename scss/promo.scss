@@ -1,6 +1,5 @@
 .promo {
 	background-image: url(../img/Plastic-Industry.jpeg);
-	// height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color:  #484885;
@@ -12,6 +11,7 @@
     	font-family: $font-text;
 		font-size: 40px; 
 		font-weight: bold;
+		margin-top: 80px;
 	}
 
     &__descr {
