@@ -797,17 +797,17 @@ nav ul.sub li a:hover {
   padding-bottom: 15px;
 }
 
-.mono-promo {
+.product-promo {
   background: #3c65b4;
   background: linear-gradient(278deg, #3c65b4 0%, #cf81ff 78%);
   color: #FFF;
   padding-top: 100px;
 }
-.mono-promo__title {
+.product-promo__title {
   font-family: "Roboto", sans-serif;
   font-size: 35px;
 }
-.mono-promo__descr {
+.product-promo__descr {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 60px;
 }
@@ -816,24 +816,27 @@ nav ul.sub li a:hover {
   border-left: 1px solid #8393b8;
 }
 
-.mono-features__img {
+.product-body__img {
   margin-top: 35px;
   margin-left: 30px;
   width: 450px;
   height: 300px;
 }
-.mono-features__title {
+.product-body__title {
   margin-top: 65px;
   font-family: "Roboto", sans-serif;
   color: #3d3d3d;
 }
-.mono-features__descr {
+.product-body__descr {
   font-family: "Roboto Condensed", sans-serif;
   color: #7a7575;
 }
-.mono-features__img-second {
-  height: 400px;
-  width: 350px;
-  margin-top: 55px;
+.product-body__img-second {
+  height: 300px;
+  width: 400px;
+  margin-top: 80px;
   margin-left: 40px;
+}
+.product-body__descr--batch {
+  margin-top: 80px;
 }

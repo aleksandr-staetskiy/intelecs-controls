@@ -1,0 +1,20 @@
+.product-promo {
+    background: #3c65b4;
+     background: linear-gradient(278deg, #3c65b4 0%, #cf81ff 78%);
+    color: #FFF;
+    padding-top: 100px;
+
+    &__title {
+        font-family: $font-title;
+        font-size: 35px;
+    }
+
+    &__descr {
+        font-family: $font-text;
+        margin-bottom: 60px;
+    }
+}
+
+.container-line {
+    border-left: 1px solid #8393b8;
+}
