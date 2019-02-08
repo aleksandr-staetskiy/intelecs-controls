@@ -316,3 +316,13 @@
   
   /* menu setup is finished
   ========================================= */
+
+  .mobile-burger {
+    display: none;
+
+    @media (max-width: $screen-lg) {
+        & {
+            display: block;
+        }
+    }
+}
