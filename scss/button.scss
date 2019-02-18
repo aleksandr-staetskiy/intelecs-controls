@@ -92,3 +92,18 @@
 
 
 }
+
+.main-btn--light-blue {
+    height: 33px;
+    width: 150px;
+    background: #362ea5;
+    border-radius: 12px;
+    text-transform: none;
+    font-weight: normal;
+    line-height: 28px;
+
+    &:hover {
+        background: #4452a1;
+        text-decoration: none;
+    }
+}

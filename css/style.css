@@ -127,6 +127,10 @@
   }
 }
 
+.desk-menu__link--grey {
+  color: #807f7f;
+}
+
 /*  BURGER
 ========================================== */
 .burger {
@@ -553,6 +557,20 @@ nav ul.sub li a:hover {
     text-align: center;
   }
 }
+.main-btn--light-blue {
+  height: 33px;
+  width: 150px;
+  background: #362ea5;
+  border-radius: 12px;
+  text-transform: none;
+  font-weight: normal;
+  line-height: 28px;
+}
+.main-btn--light-blue:hover {
+  background: #4452a1;
+  text-decoration: none;
+}
+
 .features__title {
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -919,4 +937,46 @@ nav ul.sub li a:hover {
 }
 .product-body__descr--batch {
   margin-top: 80px;
+}
+
+.products-main {
+  background: #F4F4F4;
+}
+.products-main__title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #707070;
+  margin-bottom: 35px;
+  margin-top: 45px;
+}
+.products-main-card {
+  background: #fff;
+}
+.products-main-card {
+  padding-top: 50px;
+  padding-left: 78px;
+  margin-bottom: 17px;
+}
+.products-main-card__title {
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+}
+.products-main-card__descr {
+  color: #707070;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 80%;
+}
+@media (max-width: 576px) {
+  .products-main-card {
+    padding-left: 0px;
+  }
+  .products-main-card__title {
+    font-size: 20px;
+  }
+  .products-main-card__descr {
+    width: 100%;
+    font-size: 15px;
+  }
 }

@@ -1,0 +1,53 @@
+.products-main {
+    background: #F4F4F4;
+
+    &__title {
+        text-align: center;
+        font-family: $font-title;
+        font-size: 30px;
+        color: #707070;
+        margin-bottom: 35px;
+        margin-top: 45px;
+    }
+
+    &-card {
+        background: #fff;
+    }
+
+    &-card {
+        padding-top: 50px;
+        padding-left: 78px;
+        margin-bottom: 17px;
+    }
+
+    &-card__title {
+        font-size: 23px;
+        font-family: $font-title;
+        color: #707070;
+    }
+
+    &-card__descr {
+        color: #707070;
+        font-family: $font-text;
+        width: 80%;
+    
+    }
+
+	@media (max-width: $screen-sm) {
+        
+        &-card {
+            padding-left: 0px;
+        }
+        
+        &-card__title {
+            font-size: 20px;
+        }
+        
+
+        &-card__descr {
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+
+}
