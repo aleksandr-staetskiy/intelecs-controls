@@ -980,3 +980,46 @@ nav ul.sub li a:hover {
     font-size: 15px;
   }
 }
+
+.about-promo {
+  background: #96979A;
+}
+.about-promo__title {
+  color: white;
+  margin-top: 25px;
+}
+.about-promo__descr {
+  color: white;
+  margin-bottom: 55px;
+}
+
+.about-info {
+  margin-top: 45px;
+}
+.about-info__img {
+  margin-top: 20px;
+  display: block;
+  width: 250px;
+  height: 190px;
+}
+.about-info__main-txt {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #7a7575;
+}
+
+.about-retrofitting {
+  margin-top: 45px;
+}
+.about-retrofitting__img {
+  width: 400px;
+  height: 270px;
+}
+.about-retrofitting__title {
+  margin-top: 10px;
+  color: #7a7575;
+}
+.about-retrofitting__descr {
+  margin-left: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #7a7575;
+}

@@ -1,0 +1,51 @@
+.about-promo {
+    background: #96979A;
+
+    &__title {
+        color: white;
+        margin-top: 25px;
+    }
+
+    &__descr {
+        color: white;
+        margin-bottom: 55px;
+    }
+}
+
+.about-info {
+    margin-top: 45px;
+
+    &__img {
+        margin-top: 20px;
+        display: block;
+        width: 250px;
+        height: 190px;
+    }
+
+    &__main-txt {
+        font-family: $font-text;
+        color: $main-color;
+    }
+
+}
+
+.about-retrofitting {
+
+    margin-top: 45px;
+
+    &__img {
+        width: 400px;
+        height: 270px;
+    }
+
+    &__title {
+        margin-top: 10px;
+        color: $main-color;
+    }
+    &__descr {
+        margin-left: 15px;
+        font-family: $font-title;
+        color: $main-color;
+    }
+
+}
