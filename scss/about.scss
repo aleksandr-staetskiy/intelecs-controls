@@ -27,6 +27,7 @@
         color: $main-color;
     }
 
+
 }
 
 .about-retrofitting {
@@ -46,6 +47,30 @@
         margin-left: 15px;
         font-family: $font-title;
         color: $main-color;
+    }
+
+    @media (max-width: $screen-lg) {
+        &__img {
+            width: 300px;
+            height: 120px;
+        }
+    }
+    
+    @media (max-width: $screen-md) {
+        &__img {
+            width: 300px;
+            height: 120px;
+        }
+       
+        
+    }
+    
+    @media (max-width: $screen-sm) {
+        &__img {
+            width: 300px;
+            height: 120px;
+        }    
+    
     }
 
 }
