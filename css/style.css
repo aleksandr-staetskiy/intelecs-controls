@@ -787,7 +787,7 @@ nav ul.sub li a:hover {
 }
 .product-card {
   text-align: center;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 25px 0px 25px;
   background: #efefef;
   margin-bottom: 20px;
   height: 320px;
@@ -804,7 +804,7 @@ nav ul.sub li a:hover {
 }
 @media (max-width: 992px) {
   .product-card {
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
   }
   .product__title {
     margin: 10px 0px 25px 0px;
@@ -864,6 +864,22 @@ nav ul.sub li a:hover {
   padding-top: 25px;
   margin-bottom: 7px;
 }
+.footer--bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 576px) {
+  .footer--bottom {
+    position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .footer--bottom {
+    position: relative;
+  }
+}
 
 .modal-bg--gray {
   border-radius: 14px;
@@ -883,11 +899,16 @@ nav ul.sub li a:hover {
 }
 .product-promo__title {
   font-family: "Roboto", sans-serif;
-  font-size: 35px;
+  font-size: 30px;
 }
 .product-promo__descr {
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: 60px;
+}
+@media (max-width: 576px) {
+  .product-promo__title {
+    font-size: 21px;
+  }
 }
 
 .container-line {
@@ -897,7 +918,7 @@ nav ul.sub li a:hover {
 .product-body__img {
   margin-top: 35px;
   margin-left: 30px;
-  width: 450px;
+  width: 430px;
   height: 300px;
 }
 .product-body__title {
@@ -917,6 +938,16 @@ nav ul.sub li a:hover {
 }
 .product-body__descr--batch {
   margin-top: 80px;
+}
+@media (max-width: 576px) {
+  .product-body__img {
+    width: 300px;
+    height: 170px;
+  }
+  .product-body__img-second {
+    width: 300px;
+    height: 170px;
+  }
 }
 
 .products-main {
@@ -1020,4 +1051,29 @@ nav ul.sub li a:hover {
     width: 300px;
     height: 120px;
   }
+}
+
+.contacts__title {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 36px;
+  color: #7a7575;
+  font-size: 32px;
+}
+.contacts__modal-form {
+  margin-top: 20px;
+}
+.contacts-card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.contacts-card__info {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.body-gray {
+  background: #F4F4F4;
 }

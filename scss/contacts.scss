@@ -1,0 +1,30 @@
+.contacts {
+
+    &__title {
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 36px;
+        color: $main-color;
+        font-size: 32px;
+    }
+
+    &__modal-form {
+        margin-top: 20px;
+    }
+
+    &-card {
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        border-radius: 3px;
+    }
+
+    &-card__info {
+        font-family: $font-text;
+    }
+}
+
+.body-gray {
+    background: #F4F4F4;
+}

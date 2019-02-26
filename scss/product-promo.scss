@@ -6,12 +6,20 @@
 
     &__title {
         font-family: $font-title;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     &__descr {
         font-family: $font-text;
         margin-bottom: 60px;
+    }
+
+    @media (max-width: $screen-sm) {
+
+        &__title {
+            font-size: 21px;
+        }
+
     }
 }
 

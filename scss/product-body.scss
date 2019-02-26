@@ -2,7 +2,7 @@
     &__img {
         margin-top: 35px;
         margin-left: 30px;
-        width: 450px;
+        width: 430px;
         height: 300px;
     }
 
@@ -26,5 +26,19 @@
 
     &__descr--batch {
         margin-top: 80px;
+    }
+
+    @media (max-width: $screen-sm) {
+
+        &__img {
+            width: 300px;
+            height: 170px;
+        }
+
+        &__img-second {
+            width: 300px;
+            height: 170px;
+        }
+    
     }
 }
