@@ -104,7 +104,7 @@
   transition: all ease 0.1s;
 }
 .desk-menu__link:hover {
-  color: rgba(255, 255, 255, 0.897);
+  color: #9c9c9c;
   text-decoration: none;
 }
 .desk-menu__link-sub {
@@ -114,7 +114,7 @@
 }
 .desk-menu__link-sub:hover {
   text-decoration: none;
-  color: #dfdfdf;
+  color: #c9c8c8;
 }
 .desk-menu--absolut {
   position: absolute;
@@ -129,6 +129,10 @@
 
 .desk-menu__link--grey {
   color: #807f7f;
+}
+
+.col--position-inh {
+  position: inherit;
 }
 
 /*  BURGER
@@ -939,6 +943,9 @@ nav ul.sub li a:hover {
 .product-body__descr--batch {
   margin-top: 80px;
 }
+.product-body__link-download {
+  margin-left: 20px;
+}
 @media (max-width: 576px) {
   .product-body__img {
     width: 300px;
@@ -1010,8 +1017,8 @@ nav ul.sub li a:hover {
 .about-info__img {
   margin-top: 20px;
   display: block;
-  width: 250px;
-  height: 190px;
+  width: 300px;
+  height: 230px;
 }
 .about-info__main-txt {
   font-family: "Roboto Condensed", sans-serif;

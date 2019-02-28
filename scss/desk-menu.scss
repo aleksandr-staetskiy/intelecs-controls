@@ -47,7 +47,7 @@
         transition: all ease 0.1s;
 
         &:hover {
-            color: rgba(255, 255, 255, 0.897);
+            color: #9c9c9c;
             text-decoration: none;
         }
     }
@@ -60,7 +60,7 @@
 
         &:hover {
             text-decoration: none;
-            color: #dfdfdf
+            color: #c9c8c8
         }
     }
 
@@ -81,4 +81,8 @@
 
 .desk-menu__link--grey {
     color: rgb(128, 127, 127)
+}
+
+.col--position-inh {
+    position: inherit;
 }
