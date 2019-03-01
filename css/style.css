@@ -104,7 +104,7 @@
   transition: all ease 0.1s;
 }
 .desk-menu__link:hover {
-  color: #9c9c9c;
+  color: #808080;
   text-decoration: none;
 }
 .desk-menu__link-sub {
@@ -114,7 +114,7 @@
 }
 .desk-menu__link-sub:hover {
   text-decoration: none;
-  color: #c9c8c8;
+  color: #353434;
 }
 .desk-menu--absolut {
   position: absolute;
@@ -944,7 +944,8 @@ nav ul.sub li a:hover {
   margin-top: 80px;
 }
 .product-body__link-download {
-  margin-left: 20px;
+  display: block;
+  margin-left: 75px;
 }
 @media (max-width: 576px) {
   .product-body__img {

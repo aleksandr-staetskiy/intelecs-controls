@@ -29,7 +29,8 @@
     }
 
     &__link-download {
-        margin-left: 20px;
+        display: block;
+        margin-left: 75px;
     }
 
     @media (max-width: $screen-sm) {
