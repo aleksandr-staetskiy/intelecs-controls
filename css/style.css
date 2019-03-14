@@ -548,6 +548,10 @@ nav ul.sub li a:hover {
   text-decoration: none;
 }
 
+.btn--mt10 {
+  margin-top: 10px;
+}
+
 @media (max-width: 576px) {
   .btn--owal {
     width: 120px;
@@ -885,14 +889,10 @@ nav ul.sub li a:hover {
   }
 }
 
-.modal-bg--gray {
+.form {
+  padding-top: 15px;
   border-radius: 14px;
   background-color: #efefef;
-}
-
-.modal__title {
-  text-align: center;
-  padding-bottom: 15px;
 }
 
 .product-promo {
